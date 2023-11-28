@@ -16,7 +16,7 @@ let n = 4; // Change this to your arbitrary number
 
 while (true) {
   let isPrime = true;
-
+  n++;
   for (let i = 2; i < n; i++) {
     if (n % i === 0) {
       isPrime = false;
@@ -29,7 +29,7 @@ while (true) {
     break;
   }
 
-  n++;
+
 }
 
 // csv-parser.js
